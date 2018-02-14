@@ -26,7 +26,7 @@ body {
 
 html {
   font-family: "PT Sans",Helvetica,Arial,sans-serif;
-  background:#fafafa;
+  background: #fafafa url();
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -279,7 +279,7 @@ a.sidebar-nav-item:focus {
   visibility: visible;
   -webkit-transform: translateX(14rem);
       -ms-transform: translateX(14rem);
-          transform: translateX(14rem);  
+          transform: translateX(14rem);
 }
 
 .sidebar-footer a{
