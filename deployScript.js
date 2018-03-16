@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -e
+
+function cleanup_at_exit {
+  git checkout master
+  git branch -D deploy
+}
+trap cleanup_at_exit EXIT
+
+git checkout -b deploy
+
+webpack -p
+
+git add -f dist/bundle.js dist/bundle.js.map
+git commit --allow-empty -m 'Deployin with new changes'
+git push --force heroku deploy:master
