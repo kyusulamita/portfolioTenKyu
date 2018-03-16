@@ -1,42 +1,37 @@
 export function getPortfolio() {
   return [
     {
-    	link : 'http://www.goldmansachs.com',
-    	title : 'Goldman Sachs',
+    	link : 'https://www.fullstackacademy.com/javascript-101',
+    	title : 'Javascript Part Time Instructor',
     	classname : 'goldmans',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'React, Backbone, D3'
+    			title : 'Lead Instructor',
+    			skills : 'Taught Admissions Prep, Javascript 101'
     		},
     		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Webpack'
+    			title : 'Shadow Instructor',
+    			skills : 'BCP -> Month long course covering Javascript fundamentals'
     		}
     	]
     },
     {
-    	link : 'http://www.libon.com/',
-    	title : 'Orange (Libon)',
+    	link : 'https://www.fullstackacademy.com/software-engineering-immersive#fullstack-experience',
+    	title : 'Fullstack Academy',
     	classname : 'orange',
     	roles : [
     		{
-    			title : 'Front End Developer',
+    			title : 'Fullstack Fellow',
     			skills : 'Backbone, WebRTC, FireFoxOS'
     		},
-    		{
-    			title : 'Back End Developer',
-    			skills : 'Node, MongoDB, Grunt'
-    		}
     	]
     },
     {
-    	link : 'http://www.pwul.net',
     	title : 'Pay What You Like',
-    	classname : 'pwul',
+    	classname : 'Posonicapa',
     	roles : [
     		{
-    			title : 'Front End Developer',
+    			title : 'EFL(English as a Foriegn Language) Teacher',
     			skills : 'React, Backbone, D3'
     		},
     		{
@@ -46,59 +41,48 @@ export function getPortfolio() {
     	]
     },
     {
-    	link : 'http://www.timeout.com/london/card',
-    	title : 'Timeout',
+    	link : 'http://excel.hmcc.net/#what',
+    	title : 'Excel Academy',
     	classname : 'timeout',
     	roles : [
     		{
-    			title : 'Front End Developer',
+    			title : 'ESL(English as a Second Language) Teacher',
     			skills : 'Backbone, CSS3, HTML5'
     		}
     	]
     },
     {
     	link : 'http://www.tesco.com/direct',
-    	title : 'Tesco Entertainment',
+    	title : 'Porque No Los Dos',
     	classname : 'tesco',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
+    			title : 'Fullstack Developer',
+    			skills : 'Semantic-UI, CSS3, React, React-Redux, Sequelize, Node, FP Javascript'
     		}
     	]
     },
     {
     	link : 'http://onlinelibrary.wiley.com',
-    	title : 'John Wiley and Sons',
+    	title : 'Which Door',
     	classname : 'wiley',
     	roles : [
     		{
-    			title : 'Front End Developer',
-    			skills : 'Backbone, CSS3, HTML5'
+    			title : 'Sole Developer',
+    			skills : 'OO C#, Unity, Sprite Rendering'
     		}
     	]
     },
     {
     	link : 'http://www.covestor.com',
-    	title : 'Covestor',
+    	title : 'Radar',
     	classname : 'covestor',
     	roles : [
     		{
     			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
+    			skills : 'OO Javascript, React, React-Redux, Sequelize, Bootstrap, Express, Node'
     		}
     	]
     },
-    {
-    	link : 'http://www.shipserv.com',
-    	title : 'ShipServ',
-    	classname : 'shipserv',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, CSS3, HTML5'
-    		}
-    	]
-    }
   ]
 }

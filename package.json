@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-redux-app",
+  "name": "Sulamita-Morales-Portfolio",
   "version": "0.0.1",
-  "description": "A portfolio template built with Redux and React",
+  "description": "A portfolio built with Redux and React",
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
     "clean": "rm -rf dist",
