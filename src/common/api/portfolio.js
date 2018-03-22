@@ -3,7 +3,7 @@ export function getPortfolio() {
     {
     	link : 'https://www.fullstackacademy.com/javascript-101',
     	title : 'Javascript Part Time Instructor',
-    	classname : 'fullstack101',
+    	classname : 'js101',
     	roles : [
     		{
     			title : 'Part Time Instructor',
@@ -61,7 +61,7 @@ export function getPortfolio() {
     {
     	link : 'https://github.com/kyusulamita/whichDoor',
     	title : 'Which Door',
-    	// classname : 'whichdoor',
+    	classname : 'whichdoor',
     	roles : [
     		{
     			title : 'Sole Developer',

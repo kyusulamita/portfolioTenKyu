@@ -62,5 +62,31 @@
 
 .whichdoor {
 	background:#fff url(assets/WhichDoor.jpg) top no-repeat;
+    background-size: 1000px;
+}
+
+.porqueNo {
+    background:#fff url(assets/porqueno.jpg) top no-repeat;
+    background-size: 1000px;
+}
+
+.radar {
+    background:#fff url(assets/radar.jpg) top no-repeat;
+    background-size: 1000px;
+}
+
+.excel {
+    background:#fff url(assets/excel.jpg) top no-repeat;
+    /*background-size: 1000px;*/
+}
+
+.js101 {
+    background:#fff url(assets/js101.jpg) top no-repeat;
+    background-size: 750px;
+}
+
+.sanmarcos {
+    background:#fff url(assets/posonicapa.jpg) top no-repeat;
+    background-size: 1000px;
 }
 
