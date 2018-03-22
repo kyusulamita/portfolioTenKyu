@@ -9,14 +9,15 @@ import HomePage from "./containers/HomePage";
 
 //Redux Dumb
 import PortfolioPage from "./components/Portfolio";
-import ServicesPage from "./components/Services";
+import ProjectPortfolioPage from "./components/projectPortfolio";
+
 import error404 from "./components/404";
 
 export default (
   <Route name="app" path="/" component={App}>
       <Route path="home" component={HomePage} />
-      <Route path="portfolio" component={PortfolioPage} />
-      <Route path="services" component={ServicesPage} />
+      <Route path="experience" component={PortfolioPage} />
+      <Route path="projects" component={ProjectPortfolioPage} />
       <Route path="about" component={AboutPage} />
       <Route path="*" component={error404}/>
   </Route>
