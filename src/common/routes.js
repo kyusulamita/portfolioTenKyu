@@ -6,6 +6,7 @@ import App from "./containers/App";
 //Redux Smart
 import AboutPage from "./containers/AboutPage";
 import HomePage from "./containers/HomePage";
+import Resume from './components/Resume';
 
 //Redux Dumb
 import PortfolioPage from "./components/Portfolio";
