@@ -3,10 +3,10 @@ export function getPortfolio() {
     {
     	link : 'https://www.fullstackacademy.com/javascript-101',
     	title : 'Javascript Part Time Instructor',
-    	// classname : 'goldmans',
+    	classname : 'fullstack101',
     	roles : [
     		{
-    			title : 'Lead Instructor',
+    			title : 'Part Time Instructor',
     			skills : 'Taught Admissions Prep, Javascript 101'
     		},
     		{
@@ -18,7 +18,7 @@ export function getPortfolio() {
     {
     	link : 'https://www.fullstackacademy.com/software-engineering-immersive#fullstack-experience',
     	title : 'Fullstack Academy',
-    	// classname : 'orange',
+    	classname : 'fullstack',
     	roles : [
     		{
     			title : 'Fullstack Fellow',
@@ -28,29 +28,29 @@ export function getPortfolio() {
     },
     {
     	title : 'Asamblea San Marcos',
-    	// classname : 'Posonicapa',
+    	classname : 'sanmarcos',
     	roles : [
     		{
     			title : 'EFL(English as a Foriegn Language) Teacher',
-    			skills : ''
+    			skills : 'Taught English in the village of Posonicapa as well as in San Marcos.'
     		},
     	]
     },
     {
     	link : 'http://excel.hmcc.net/#what',
     	title : 'Excel Academy',
-    	// classname : 'timeout',
+    	classname : 'excel',
     	roles : [
     		{
     			title : 'ESL(English as a Second Language) Teacher',
-    			skills : ''
+    			skills : 'Taught English to recently migrated students.'
     		}
     	]
     },
     {
-    	link : 'http://www.tesco.com/direct',
+    	link : 'https://github.com/kyusulamita/porqueNoDost',
     	title : 'Porque No Los Dos',
-    	// classname : 'tesco',
+    	classname : 'porqueNo',
     	roles : [
     		{
     			title : 'Fullstack Developer',
@@ -59,9 +59,9 @@ export function getPortfolio() {
     	]
     },
     {
-    	link : 'http://onlinelibrary.wiley.com',
+    	link : 'https://github.com/kyusulamita/whichDoor',
     	title : 'Which Door',
-    	// classname : 'wiley',
+    	// classname : 'whichdoor',
     	roles : [
     		{
     			title : 'Sole Developer',
@@ -70,9 +70,9 @@ export function getPortfolio() {
     	]
     },
     {
-    	link : 'http://www.covestor.com',
+    	link : 'https://github.com/cartographers/Radar',
     	title : 'Radar',
-    	// classname : 'covestor',
+    	classname : 'radar',
     	roles : [
     		{
     			title : 'Front End Developer',
