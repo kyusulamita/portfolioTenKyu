@@ -2,7 +2,7 @@
 
 A small portfolio using React and Redux! :)
 
-<img src="http://g.recordit.co/cO0pqgO8Fo.gif" width="728" />
+<img src="https://media.giphy.com/media/iAPJb5rJlbVDkgtONv/giphy.gif" width="728" />
 
 ## Why make this?
 In order to gain more experience with CSS it really helped to look at nicely designed portfolios! Although I'm quite comfortable with the backend, the arduous task of making things pretty is so difficult for me at times. That's where this was born! This is a chance for me to challenge my skills and make a dazzling portfolio for others to see.

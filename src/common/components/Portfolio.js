@@ -31,6 +31,7 @@ class Portfolio extends Component {
 
     return (
         <div className="posts">
+          <h1>Past Job Experience and Projects </h1>
         	{PortfolioRows}
         </div>
     );
