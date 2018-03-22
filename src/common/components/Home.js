@@ -72,6 +72,28 @@ class Home extends Component {
 						<li><em>Heroku</em></li>
 					</ul>
 				</div>
+        </div>
+
+
+        <div className="post clearfix">
+        <h2>Other Interests: </h2>
+
+        <div className="skill-item clearfix">
+          <h4>Game Development</h4>
+          <ul className="clearfix">
+            <li><em>C++</em></li>
+            <li><em>C#</em></li>
+            <li><em>Unity</em></li>
+          </ul>
+        </div>
+
+        <div className="skill-item clearfix">
+          <h4>In process</h4>
+          <ul className="clearfix">
+            <li><em>Angular</em></li>
+            <li><em>Docker</em></li>
+          </ul>
+        </div>
 
 				<div className="exclaimation">
 					<em><b>*</b> This site is built with these technologies. View the <a href="https://github.com/kyusulamita/portfolioTenKyu">github repo here</a>.</em><br/>

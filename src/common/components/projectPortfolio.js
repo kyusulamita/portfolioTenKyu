@@ -10,7 +10,7 @@ class projectPortfolio extends Component{
 
     return (
       <div className="posts">
-        <h2>Project now and past</h2>
+        <h2>Projects </h2>
         { PortfolioRows(projects) }
       </div>
     )

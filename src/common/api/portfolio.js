@@ -47,44 +47,22 @@ export function getWorkPortfolio() {
     		}
     	]
     },
-    {
-    	link : 'https://github.com/kyusulamita/porqueNoDos',
-    	title : 'Porque No Los Dos',
-    	classname : 'porqueNo',
-    	roles : [
-    		{
-    			title : 'Fullstack Developer',
-    			skills : 'Semantic-UI, CSS3, React, React-Redux, Sequelize, Node, FP Javascript'
-    		}
-    	]
-    },
-    {
-    	link : 'https://github.com/kyusulamita/whichDoor',
-    	title : 'Which Door',
-    	classname : 'whichdoor',
-    	roles : [
-    		{
-    			title : 'Sole Developer',
-    			skills : 'OO C#, Unity, Sprite Rendering'
-    		}
-    	]
-    },
-    {
-    	link : 'https://github.com/cartographers/Radar',
-    	title : 'Radar',
-    	classname : 'radar',
-    	roles : [
-    		{
-    			title : 'Front End Developer',
-    			skills : 'OO Javascript, React, React-Redux, Sequelize, Bootstrap, Express, Node'
-    		}
-    	]
-    },
   ]
 }
 
 export function getProjectPortfolio(){
     return [
+        {
+            link : 'https://github.com/cartographers/Radar',
+            title : 'Radar',
+            classname : 'radar',
+            roles : [
+                {
+                    title : 'Front End Developer',
+                    skills : 'OO Javascript, React, React-Redux, Sequelize, Bootstrap, Express, Node'
+                }
+            ]
+        },
         {
             link : 'https://github.com/kyusulamita/porqueNoDos',
             title : 'Porque No Los Dos',
@@ -107,16 +85,5 @@ export function getProjectPortfolio(){
                 }
             ]
         },
-        {
-            link : 'https://github.com/cartographers/Radar',
-            title : 'Radar',
-            classname : 'radar',
-            roles : [
-                {
-                    title : 'Front End Developer',
-                    skills : 'OO Javascript, React, React-Redux, Sequelize, Bootstrap, Express, Node'
-                }
-            ]
-        }
     ]
 }
