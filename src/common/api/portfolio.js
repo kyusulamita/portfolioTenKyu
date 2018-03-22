@@ -48,7 +48,7 @@ export function getPortfolio() {
     	]
     },
     {
-    	link : 'https://github.com/kyusulamita/porqueNoDost',
+    	link : 'https://github.com/kyusulamita/porqueNoDos',
     	title : 'Porque No Los Dos',
     	classname : 'porqueNo',
     	roles : [
