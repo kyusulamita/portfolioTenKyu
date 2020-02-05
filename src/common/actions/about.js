@@ -25,11 +25,13 @@ function shouldFetchRepos(state) {
   const repos = state.repos.results;
   if (!repos.length) {
     return true;
-  } else if (repos.isFetching) {
-    return false;
-  } else {
-    return repos.didInvalidate;
   }
+
+  if (repos.isFetching) {
+    return false;
+  }
+
+  return repos.didInvalidate;
 }
 
 export function fetchReposIfNeeded() {

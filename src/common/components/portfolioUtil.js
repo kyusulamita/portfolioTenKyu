@@ -1,24 +1,36 @@
 import classNames from 'classnames';
-import React, { Component } from 'react';
+import React from 'react';
 
-const RoleRows = (roles) => {
+const RoleRows = ({ roles }) => {
   return roles.map((role) => {
     return (
       <div key={role.title} className="role_wrapper clearfix">
         <p className="role">Role</p>
         <p className="role_title">{role.title}<br />
-        <span className="role_skills">{role.skills}</span></p>
+          <span className="role_skills">{role.skills}</span></p>
       </div>
     )
   });
 }
 
-export const PortfolioRows = (portfolio) => portfolio.map((row) => {
-  const classname = classNames('portfolio_item','clearfix',row.classname);
+export const PortfolioRows = ({ rows }) => rows.map((row) => {
+  const className = classNames('portfolio_item', 'clearfix', row.className);
+  const { title, link, roles} = row;
+  const Link = () => {
+    if (!link) {
+      return null;
+    }
     return (
-        <div key={row.title} className={classname}>
-    <h2><a href={row.link} target="_blank">{row.link ? `(visit site)` : `` }</a> {row.title}</h2>
-    {RoleRows(row.roles)}
-  </div>
+      <a href={link} target="_blank">(Visit Site)</a>
     )
+  }
+  return (
+    <div key={title} className={className}>
+      <h2>
+        <Link />
+        {title}
+      </h2>
+      <RoleRows roles={roles} />
+    </div>
+  )
 });

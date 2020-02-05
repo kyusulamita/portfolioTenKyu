@@ -1,22 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { getWorkPortfolio } from '../api/portfolio';
 import { PortfolioRows } from './portfolioUtil'
-import classNames from 'classnames';
 
-class Portfolio extends Component {
+const Portfolio = () => {
 
-  render() {
-
-  const portfolio = getWorkPortfolio();
-
-    return (
-        <div className="posts">
-          <h2>Past Job Experience</h2>
-        	{ PortfolioRows(portfolio) }
-        </div>
-    );
-
-  }
+  const jobExperiences = getWorkPortfolio();
+  
+  return (
+    <div className="posts">
+      <h2>Past Job Experience</h2>
+      <PortfolioRows rows={jobExperiences} />
+    </div>
+  );
 }
 
 export default Portfolio;
